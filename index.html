@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Supermercado California</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu California</title>
+    <style>
+           /*
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }*/
+
+            
+            .navbar {
+    background-color: #003F7D; /* Cor azul do fundo */
+    padding: 10px 0;
+    display: flex;
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: space-between; /* Espaço entre os itens */
+}
+
+.logo img {
+    height: 100px; /* Altura do logo */
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center; /* Alinha os itens do menu no centro */
+}
+
+.menu li {
+    margin: 0 20px; /* Espaçamento uniforme entre os itens do menu */
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px; /* Tamanho da fonte dos itens do menu */
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-box input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.search-box button {
+    background-color: #00a651; /* Cor verde do botão */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.right-menu li {
+    margin-left: 20px;
+}
+
+.right-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cart-icon {
+    background-color: #7261c20e; /* Cor leve do ícone de carrinho */
+    border-radius: 50%;
+    padding: 10px;
+}
+        </style>
+    </head>
+    <body>
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/Logo_california.jpeg" alt="Logo Supermercado California">
+            </div>
+            <ul class="menu">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Central de atendimento</a></li>
+                <li><a href="#">Formas de pagamento</a></li>
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" placeholder="Buscar produtos...">
+                <button>Buscar</button>
+            </div>
+            <ul class="right-menu">
+                <li><a href="#">Minhas listas</a></li>
+                <li><a href="#">Faça seu login</a></li>
+                <li><a href="#carrinho" class="cart-icon">🛒</a></li>
+            </ul>
+        </div> 
+    
+        
+    </body>
+    </html>
+
+    <!-- Seção Hero com Imagem de Destaque -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Bem-vindo ao Supermercado California</h2>
+            <p>Os melhores produtos e preços para você, com entrega rápida!</p>
+            <a href="#produtos" class="btn">Ver Produtos</a>
+        </div>
+    </section>
+
+    <!-- Seção de Produtos por Categorias -->
+    <section id="produtos" class="produtos">
+        <h2>Produtos em Destaque</h2>
+
+        <!-- Seção de Frutas -->
+        <h3>Frutas</h3>
+        <div class="produtos-grid">
+            <div class="produto-item">
+                <img src="img/limão.png" alt="Maçã">
+                <h3>Limão Tahiti</h3>
+                <p>$3.00/kg</p>
+                <a href="#" class="btn comprar">Adicionar ao Carrinho</a>
+            </div>
+            <div class="produto-item">
+                <img src="img/banana_nanica.png" alt="Banana">
+                <h3>Banana Nanica Unidade</h3>
+                <p>R$ 1,03 UN </p>
+                <a href="#" class="btn comprar">Adicionar ao Carrinho</a>
+            </div>
+            <div class="produto-item">
+                <img src="img/uva_vitoria.png" alt="Uva">
+                <h3>Uva Vitória Bandeja 500g</h3>
+                <p>$4.50/kg</p>
+                <a href="#" class="btn comprar">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+
+        <!-- Seção de Carnes -->
+        <h3>Carnes</h3>
+        <div class="produtos-grid">
+            <div class="produto-item">
+                <img src="img/Frango.png" alt="Frango">
+                <h3>Filé de Peito de Frango Congelado Sadia Zip 1kg</h3>
+                <p>$8.50</p>
+                <a href="#" class="btn comprar">Adicionar ao Carrinho</a>
+            </div>
+            <div class="produto-item">
+                <img src="img/Picanha .png" alt="Carne Bovina">
+                <h3>Picanha bovina Resfriada Bassi peça 1,1kg</h3>
+                <p>$22.00/kg</p>
+                <a href="#" class="btn comprar">Adicionar ao Carrinho</a>
+            </div>
+            <div class="produto-item">
+                <img src="img/Linguiça Toscana .png" alt="Carne Suína">
+                <h3>Linguiça Toscana Congelada Perdigão NaBrasa Apimentada 1kg</h3>
+                <p>$15.00/kg</p>
+                <a href="#" class="btn comprar">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+
+        <!-- Seção de Bebidas -->
+        <h3>Bebidas</h3>
+        <div class="produtos-grid">
+            <div class="produto-item">
+                <img src="img/Suco de larandja.png" alt="Suco de Laranja">
+                <h3>Suco Laranja Integral Refrigerado Select 2L</h3>
+                <p>R$ 16,89 un</p>
+                <a href="#" class="btn comprar">Adicionar ao Carrinho</a>
+            </div>
+            <div class="produto-item">
+                <img src="img/coca.jpg" alt="Refrigerante">
+                <h3>Refrigerante</h3>
+                <p>$12.00</p>
+                <a href="#" class="btn comprar">Adicionar ao Carrinho</a>
+            </div>
+            <div class="produto-item">
+                <img src="img/Agua.png" alt="Água Mineral">
+                <h3>Água Mineral Select 5L</h3>
+                <p>$1.50</p>
+                <a href="#" class="btn comprar">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Supermercado California. Todos os direitos reservados.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
